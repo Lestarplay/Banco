@@ -14,7 +14,16 @@ function inicio() {
     5. Transferência
     6. Sair`));
 
-    // switch e responsavel por gerar diferentes blocos de codigo com base no valor das variaveis
+
+     function Extrato(){
+     var compras = [
+	  "\nBurger king = 50,00 reais",
+	  "\nExtra = 300,00 reais",
+	  "\nMc Donald = 60,20 reais",
+	  "\nPreço Justo = 150,00 reais"]
+		 alert(compra)
+     }
+    
     switch (opcao) {
         case 1:
             saldoUsuario();
